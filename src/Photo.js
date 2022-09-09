@@ -1,7 +1,6 @@
 import React from "react";
 
 const Photo = ({ image, likes, user_Name, user_Image, user_Portfolio }) => {
-  console.log(likes);
   return (
     <article className="photo">
       <img src={image} alt="" />
